@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background: #121212;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+        header {
+            background: #282828;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.9);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+            color: #bb86fc;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-weight: 300;
+            font-size: 1.3rem;
+            color: #cf94da;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: #1f1f1f;
+            padding: 1.5rem 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(187,134,252, 0.3);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(187,134,252, 0.5);
+        }
+        h2 {
+            color: #bb86fc;
+            border-bottom: 2px solid #bb86fc;
+            padding-bottom: 0.3rem;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #333;
+        }
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+        /* Button style for contact */
+        .contact-btn {
+            display: inline-block;
+            background: #bb86fc;
+            color: #121212;
+            padding: 0.7rem 1.5rem;
+            margin-top: 1rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background 0.3s ease;
+        }
+        .contact-btn:hover {
+            background: #a375f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ali</h1>
+        <p>Generative AI Engineer | Researcher | Software Developer</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a generative AI engineer with experience in software development, research, and AI model engineering. Currently focused on developing innovative AI solutions and exploring state-of-the-art technologies in the field.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Generative AI Engineer since June 2025 - Software development and research responsibilities.</li>
+                <li>Computer vision projects including YOLO for plant type prediction.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Currently researching AI master's programs internationally.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            <button class="contact-btn" onclick="window.location.href='mailto:your.email@example.com'">Contact Me</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Ali. All rights reserved.</p>
+    </footer>
+</body>
+</html>
